@@ -3,6 +3,7 @@ package algorithms;
 /**
  * Problem Description: Write a method that receives an integer N Then
  * calculates and return N! Example-> input: 5 output: 5! = 120
+ * Constraint N>=1
  *
  */
 public class Factorial {
