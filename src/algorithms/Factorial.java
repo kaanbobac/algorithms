@@ -14,4 +14,10 @@ public class Factorial {
 		}
 		return result;
 	}
+
+	public int calculate_recursive(int n) {
+		if (n == 1)
+			return 1;
+		return calculate_recursive(n - 1) * n;
+	}
 }
