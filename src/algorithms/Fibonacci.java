@@ -34,4 +34,12 @@ public class Fibonacci {
 		}
 		return first+second;
 	}
+	public int calculate_recrusive(int n) {
+		if(n == 0)
+			return 0;
+		if(n == 1)
+			return 1;
+	
+		return calculate_recrusive(n-2) + calculate_recrusive(n-1);
+	}
 }

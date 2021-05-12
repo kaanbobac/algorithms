@@ -23,4 +23,19 @@ public class FibonacciTest {
 		Fibonacci f = new Fibonacci();
 		assertEquals(f.calculate_iterative(1),1);
 	}
+	@Test
+	void test_recrusive() {
+		Fibonacci f = new Fibonacci();
+		assertEquals(f.calculate_recrusive(4),3);
+	}
+	@Test
+	void test_recrusive_zero() {
+		Fibonacci f = new Fibonacci();
+		assertEquals(f.calculate_recrusive(0),0);
+	}
+	@Test
+	void test_recrusive_one() {
+		Fibonacci f = new Fibonacci();
+		assertEquals(f.calculate_recrusive(1),1);
+	}
 }
